@@ -1,0 +1,642 @@
+@import "reset";
+@import "variables";
+@import "mixin";
+
+
+#header {
+  background: #EBFFE4;
+  .img {
+    img {
+      position: absolute;
+      margin-left: 482px;
+    }
+  }
+  .header {
+    padding: 20px 0;
+    @include between ();
+    button {
+      font-weight: 500;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      width: 149px;
+      height: 49px;
+      background: #5CBE3A;
+      border-radius: 4px;
+      border: none;
+      position: relative;
+      &:hover {
+        cursor: pointer;
+        color:  #5CBE3A;;
+        border: 1px solid #FFFFFF;
+        background: #FFFFFF;
+      }
+    }
+    &--nav {
+      position: relative;
+      a {
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: #051101;
+        opacity: 0.6;
+        padding: 020px;
+      }
+      span {
+        font-weight: 500;
+        font-size: 16px;
+        color: $bl;
+      }
+    }
+  }
+}
+
+#hero {
+  background: #EBFFE4;
+  padding: 65px 0;
+  .hero {
+    @include between();
+    position: relative;
+    &--title {
+      &__top  {
+        @include flex();
+      &--san1 {
+        h5 {
+          font-weight: 700;
+          font-size: 85px;
+          color: $gr;
+          padding-top: 50px;
+        }
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          color: $bl;
+          opacity: 0.7;
+          padding: 020px;
+          margin-left: 10px;
+        }
+      }
+        &--san2 {
+          h5 {
+            font-weight: 700;
+            font-size: 85px;
+            color: $gr;
+            padding-top: 50px;
+            margin-left: 50px;
+          }
+          p {
+            font-weight: 500;
+            font-size: 16px;
+            color: $bl;
+            opacity: 0.7;
+            padding: 020px;
+            margin-left: 50px;
+          }
+        }
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 61px;
+        color: $bl;
+        padding: 20px 0;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: $bl;
+        opacity: 0.7;
+        span {
+          color: $gr;
+        }
+      }
+      h4 {
+        font-weight: 700;
+        font-size: 31px;
+        color: $gr;
+        padding: 15px 0;
+      }
+      &__button {
+        .left {
+          font-weight: 500;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: $wh;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+          width: 149px;
+          height: 49px;
+          background: #5CBE3A;
+          border-radius: 4px;
+          border: none;
+          &:hover {
+            border: 1px solid;
+            color: #5CBE3A;
+            background: #EBFFE4;
+            cursor: pointer;
+          }
+        }
+        .right {
+          font-weight: 500;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: $gr;
+          width: 163px;
+          height: 49px;
+          border: 1px solid rgba(92, 190, 58, 0.3);
+          border-radius: 4px;
+          margin: 0 20px;
+          background: transparent;
+          &:hover {
+            border: 1px solid;
+            color: #ffffff;
+            background: #5CBE3A;
+            cursor: pointer;
+          }
+        }
+      }
+      &__nike {
+        @include flex();
+        h3 {
+          font-weight: 600;
+          font-size: 22px;
+          text-transform: uppercase;
+          color: $gr;
+        }
+      }
+    }
+    &--img {
+      position: relative;
+      &__blur {
+        img {
+          margin-left: 175px;
+          bottom: 70px;
+          position: absolute;
+        }
+      }
+      &__block {
+        position: absolute;
+        margin-left: 472px;
+        img {
+          background: none;
+          border-radius: 6px;
+        }
+      }
+      &__div {
+        img {
+          position: absolute;
+         bottom: 455px;
+          margin-left: 20px;
+        }
+        &--photo {
+          @include between();
+          margin-left: 437px;
+        }
+        h1 {
+          font-weight: 600;
+          font-size: 37px;
+          text-align: center;
+          color: $wh;
+          position: relative;
+          bottom: 500px;
+          margin-right: 583px;
+        }
+        p {
+          font-weight: 600;
+          font-size: 37px;
+          text-align: center;
+          color: #FFFFFF;
+          position: relative;
+          bottom: 500px;
+          margin-right: 592px;
+        }
+      }
+    }
+  }
+}
+
+#our {
+  padding: 70px 0;
+  .our {
+    &--title {
+      h1 {
+        font-weight: 700;
+        font-size: 44px;
+        text-align: center;
+        color: $bl;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: $bl;
+        opacity: 0.7;
+      }
+    }
+
+    &--img1 {
+      img {
+        position: absolute;
+      }
+    }
+    &--img2 {
+      img {
+        position: absolute;
+        margin-left: 439px;
+      }
+    }
+    &--img3 {
+      img {
+        position: absolute;
+        margin-left: 885px;
+      }
+    }
+    &--block {
+      @include between ();
+      &__top {
+        img {
+          position: relative;
+          padding-top: 147px;
+          margin-left: 30px;
+        }
+
+        h1 {
+          font-weight: 500;
+          font-size: 22px;
+          text-transform: uppercase;
+          color: #000000;
+          margin-left: 75px;
+          padding-top: 100px;
+        }
+        &--icon {
+          margin-left: 100px;
+
+          ion-icon {
+            color: gold;
+            left: 30px;
+            padding: 10px 0;
+            margin-left: 10px;
+          }
+
+          .bbb {
+            color: #645757;
+            opacity: 0.5;
+          }
+        }
+        p {
+          font-weight: 700;
+          font-size: 24px;
+          color: $bl;
+          margin-left: 80px;
+          padding: 5px 0;
+        }
+
+        button {
+          margin-left: 100px;
+          font-weight: 500;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: #5CBE3A;
+          width: 149px;
+          height: 49px;
+          border: 1px solid rgba(92, 190, 58, 0.3);
+          border-radius: 4px;
+          background: none;
+          &:hover {
+            cursor: pointer;
+            border: 1px solid;
+            color: #ffffff;
+            background: #5CBE3A;
+          }
+        }
+      }
+    }
+  }
+}
+
+#story {
+  padding: 100px 0;
+  .story {
+    position: relative;
+    @include flex();
+    h2 {
+      font-weight: 700;
+      font-size: 218.216px;
+      text-align: center;
+      color: #E5F2E1;
+      transform: rotate(-90deg);
+      margin-left: -283px;
+      padding-top: 187px;}
+      &--title {
+        width: 526.52px;
+        height: 533.84px;
+        background: #F6FFF3;
+        border-radius: 10px;
+        margin-left: 125px;
+        bottom: -43px;
+        position: absolute;
+        h1 {
+          font-weight: 700;
+          font-size: 44px;
+          line-height: 130%;
+          color: $bl;
+          text-align: center;
+          padding-top: 146px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: $bl;
+          opacity: 0.7;
+          text-align: center;
+          padding: 20px 0;
+        }
+      }
+      &--icon {
+        img {
+          position: absolute;
+          margin-left: 357px;
+        }
+        ion-icon {
+          position: relative;
+          width: 75.92px;
+          color: $wh;
+          background: none;
+          text-align: center;
+          height: 72.92px;
+          margin-left: 622px;
+         top: 170px;
+        }
+        }
+  }
+}
+
+#best {
+  padding: 150px 0;
+  .best {
+    @include between();
+    &--title {
+      width: 600.95px;
+      height: 526.78px;
+      border: 20px solid #E5F2E1;
+      border-radius: 10px;
+      position: relative;
+      margin-left: -10px;
+      img {
+        position: absolute;
+        margin-left: 20px;
+        padding-top: 20px;
+      }
+    }
+    &--top {
+      position: relative;
+      &__pot {
+        &--img {
+          img {
+            width: 579px;
+            position: absolute;
+            left: -100px;
+            bottom: -98px;
+            right: -0.49%;
+          }
+        }
+        @include between ();
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          color: $bl;
+          opacity: 0.7;
+          padding: 20px 0;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+#designer {
+  .designer {
+    @include between();
+    position: relative;
+    &--start {
+      bottom: 80px;
+      &__icon {
+        padding: 30px 0;
+        @include flex();
+        ion-icon {
+          color: #5CBE3A;
+          width: 95.5px;
+        }
+      }
+      button {
+        font-weight: 600;
+        font-size: 22px;
+        color: #5CBE3A;
+        width: 195px;
+        height: 61px;
+        background: none;
+        border: 1px solid rgba(92, 190, 58, 0.3);
+        border-radius: 4px;
+        &:hover {
+          cursor: pointer;
+          color:  #FFFFFF;
+          border: 1px solid #FFFFFF;
+          background: #5CBE3A;
+        }
+      }
+      &__radio {
+        padding: 20px 0;
+        margin-left: 70px;
+        input {
+          width: 20px;
+        }
+      }
+    }
+    h1 {
+      position: relative;
+      font-weight: 600;
+      font-size: 261.487px;
+      color: #E5F2E1;
+      transform: rotate(90deg);
+      margin-top: -3px;
+      left: 617px;
+    }
+    &--div {
+      position: relative;
+      width: 326.13px;
+      height: 559.4px;
+      background: #F6FFF3;
+      //bottom: 750px;
+      margin-right: 158px;
+    }
+    &--title {
+      position: absolute;
+      width: 554.5899999999999px;
+      height: 443.72px;
+      background: #ffffff;
+      box-shadow: -8px 10px 30px rgb(0 0 0 / 5%);
+      margin-left: 314px;
+      //top: -696px;
+      &__our {
+        h4 {
+          font-weight: 700;
+          font-size: 31px;
+          color: #051101;
+          margin-left: 83px;
+          padding-top: 58px;
+        }
+      }
+      &__group {
+        //padding: 30px 0;
+        @include evenly();
+        img {
+          padding-bottom: 58px;
+        }
+        &--block {
+          margin-left: -64px;
+          h2 {
+            font-weight: 600;
+            font-size: 22px;
+            color: $bl;
+            padding: 15px 0;
+          }
+          p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: $bl;
+            opacity: 0.7;
+          }
+          &--icon {
+            padding: 20px 0;
+            @include between();
+            ion-icon {
+              color: gold;
+            }
+            .aaa {
+              color: #645757;
+              opacity: 0.5;
+            }
+            h3 {
+              font-weight: 600;
+              font-size: 22px;
+              color: $bl;
+              margin-left: 15px;
+            }
+          }
+        }
+      }
+      &__linia {
+        width: 397.87px;
+        height: 0;
+        opacity: 0.3;
+        border: 1px solid #000000;
+        margin-left: 79px;
+      }
+    }
+  }
+}
+
+#now {
+  padding: 100px 0;
+  .now {
+    padding: 50px 0;
+    &--title {
+      padding-top: 40px;
+      width: 911px;
+      height: 230.33px;
+      background: #acc4a6;
+      margin-left: 170px;
+      border-radius: 6px;
+      h1 {
+        font-weight: 700;
+        font-size: 44px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $bl;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: $bl;
+        opacity: 0.7;
+        padding: 20px 0;
+      }
+      button {
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $wh;
+        width: 158px;
+        height: 49px;
+        background: $gr;
+        border-radius: 4px;
+        border: none;
+        margin-left: 370px;
+        &:hover {
+          cursor: pointer;
+          color:  #5CBE3A;;
+          border: 1px solid #FFFFFF;
+          background: #FFFFFF;
+        }
+      }
+    }
+    &--top {
+      width: 1348px;
+      height: 0;
+      opacity: 0.1;
+      border: 1px solid #000000;
+      margin-top: 90px;
+      margin-left: -68px;
+    }
+  }
+}
+
+#nike {
+  padding: 20px 0;
+  .nike {
+    img {
+      color: $bl;
+    }
+    @include between();
+    &--nav {
+      a {
+        font-weight: 500;
+        font-size: 22px;
+        color: $bl;
+        padding: 020px;
+      }
+    }
+    &--icon {
+      @include evenly();
+      h1 {
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        color: $bl;
+      }
+      ion-icon {
+        width: 47.72px;
+        height: 47.72px;
+        background: $wh;
+        color: $gr;
+        margin-left: 30px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+#footer {
+  padding: 15px 0;
+  background: $gr;
+}
