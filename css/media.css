@@ -7,20 +7,1266 @@
   #header .img img {
     width: 54%;
   }
-  #hero .hero--img__div img {
-    width: 30%;
-    margin-left: 30px;
-  }
-  #hero .hero--img__blur img {
-    width: 90%;
+  #hero .hero--img__block img {
+    display: none;
   }
   #hero .hero--img img {
-    width: 66%;
-    top: -111px;
+    width: 100%;
+    padding-bottom: 75px;
+    margin-left: -73px;
   }
-  #hero .hero--img h1 {
-    top: -186px;
+  #hero .hero--img__div p {
+    font-size: 35px;
+    margin-right: 515px;
+    bottom: 370px;
+  }
+  #hero .hero--img__div h1 {
+    bottom: 372px;
+    margin-right: 513px;
+  }
+  #hero .hero--img__div img {
+    width: 27%;
+    margin-left: -45px;
+    top: 83px;
+  }
+  #hero .hero--img__blur img {
+    margin-left: 39px;
+    top: 238px;
+  }
+  #hero .hero--title__top--san1 h5 {
+    font-size: 70px;
+  }
+  #hero .hero--title__top--san1 p {
+    font-size: 12px;
+  }
+  #hero .hero--title__top--san2 h5 {
+    font-size: 70px;
+  }
+  #hero .hero--title__top--san2 p {
+    font-size: 12px;
+  }
+  #hero .hero--title__button .left {
+    font-size: 14px;
+    width: 117px;
+    height: 44px;
+  }
+  #hero .hero--title__button .right {
+    font-size: 14px;
+    width: 117px;
+    height: 44px;
+  }
+  #hero .hero--title p {
+    font-size: 14px;
+  }
+  #hero .hero--title h1 {
+    font-size: 56px;
+  }
+  #our .our--img1 {
+    display: none;
+  }
+  #our .our--img2 {
+    display: none;
+  }
+  #our .our--img3 {
+    display: none;
+  }
+  #story .story--title {
+    width: 482.52px;
+    height: 460.84px;
+    bottom: 24px;
+  }
+  #story .story--title h1 {
+    font-size: 40px;
+  }
+  #story .story--title p {
+    font-size: 14px;
+  }
+  #story .story--icon img {
+    width: 50%;
+  }
+  #best .best--title {
+    width: 486.95px;
+    height: 395.78px;
+  }
+  #best .best--title img {
+    width: 100%;
+    margin-left: 50px;
+  }
+  #best .best--top__pot--img img {
+    width: 460px;
+    left: 9px;
+    bottom: -89px;
+  }
+  #designer .designer h1 {
+    font-size: 200.487px;
+    left: 570px;
+  }
+  #designer .designer--div {
+    height: 411.4px;
+  }
+  #designer .designer--title {
+    width: 473.59px;
+    height: 336.72px;
+  }
+  #designer .designer--title__linia {
+    width: 346.87px;
+    height: 0;
+    opacity: 0.3;
+    border: 1px solid #000000;
+    margin-left: 61px;
+    margin-top: 15px;
+  }
+  #designer .designer--title__our h4 {
+    font-size: 27px;
+  }
+  #designer .designer--title__group--block {
+    margin-left: 3px;
+  }
+  #designer .designer--title__group--block h2 {
+    font-size: 18px;
+  }
+  #designer .designer--title__group--block p {
+    font-size: 14px;
+  }
+  #designer .designer--title__group--block--icon h3 {
+    font-size: 18px;
+  }
+  #designer .designer--start button {
+    font-size: 20px;
+    width: 142px;
+    height: 49px;
+  }
+  #designer .designer--start__icon {
+    margin-left: -27px;
+  }
+  #designer .designer--start__radio {
+    margin-left: 34px;
+  }
+  #now .now--title {
+    margin-left: 91px;
+  }
+  #now .now--top {
+    width: 1203px;
+  }
+}
+@media (max-width: 1024px) {
+  #header .img img {
+    width: 47%;
+  }
+  #hero .hero--img__block img {
+    display: none;
+  }
+  #hero .hero--img img {
+    width: 100%;
+    padding-bottom: 75px;
+    margin-left: -73px;
+  }
+  #hero .hero--img__div p {
+    font-size: 35px;
+    margin-right: 515px;
+    bottom: 370px;
+  }
+  #hero .hero--img__div h1 {
+    bottom: 372px;
+    margin-right: 513px;
+  }
+  #hero .hero--img__div img {
+    width: 27%;
+    margin-left: -45px;
+    top: 83px;
+  }
+  #hero .hero--img__blur img {
+    margin-left: 39px;
+    top: 238px;
+  }
+  #hero .hero--title__nike h3 {
+    font-size: 18px;
+  }
+  #hero .hero--title__top--san1 h5 {
+    font-size: 70px;
+  }
+  #hero .hero--title__top--san1 p {
+    font-size: 12px;
+  }
+  #hero .hero--title__top--san2 h5 {
+    font-size: 70px;
+  }
+  #hero .hero--title__top--san2 p {
+    font-size: 12px;
+  }
+  #hero .hero--title__button .left {
+    font-size: 14px;
+    width: 117px;
+    height: 44px;
+  }
+  #hero .hero--title__button .right {
+    font-size: 14px;
+    width: 117px;
+    height: 44px;
+  }
+  #hero .hero--title p {
+    font-size: 14px;
+  }
+  #hero .hero--title h1 {
+    font-size: 48px;
+  }
+  #our .our--img1 {
+    display: none;
+  }
+  #our .our--img2 {
+    display: none;
+  }
+  #our .our--img3 {
+    display: none;
+  }
+  #story .story h2 {
+    font-weight: 600;
+    font-size: 210.216px;
+  }
+  #story .story--title {
+    width: 406.52px;
+    height: 444.84px;
+    bottom: 0;
+  }
+  #story .story--title h1 {
+    font-size: 36px;
+  }
+  #story .story--title p {
+    font-size: 10px;
+  }
+  #story .story--icon img {
+    width: 48%;
+    margin-left: 282px;
+    bottom: 66px;
+  }
+  #story .story--icon ion-icon {
+    margin-left: 471px;
+    bottom: 20px;
+  }
+  #best .best--title {
+    width: 382.95px;
+    height: 285.78px;
+  }
+  #best .best--title img {
+    width: 100%;
+    margin-left: 50px;
+  }
+  #best--top h1 {
+    font-size: 10px;
+  }
+  #best--top__pot--img img {
+    width: 382px;
+    left: 78px;
+    bottom: -6px;
+  }
+  #designer .designer h1 {
+    font-size: 150.487px;
+    left: 479px;
+  }
+  #designer .designer--div {
+    height: 411.4px;
+  }
+  #designer .designer--title {
+    width: 385.59px;
+    height: 320.72px;
+    left: -96px;
+  }
+  #designer .designer--title__linia {
+    display: none;
+  }
+  #designer .designer--title__our h4 {
+    font-size: 20px;
+  }
+  #designer .designer--title__group--block {
+    margin-left: 3px;
+  }
+  #designer .designer--title__group--block h2 {
+    font-size: 18px;
+  }
+  #designer .designer--title__group--block p {
+    font-size: 14px;
+  }
+  #designer .designer--title__group--block--icon h3 {
+    font-size: 18px;
+  }
+  #designer .designer--start button {
+    font-size: 20px;
+    width: 142px;
+    height: 49px;
+  }
+  #designer .designer--start__icon {
+    margin-left: -27px;
+  }
+  #designer .designer--start__radio {
+    margin-left: 34px;
+  }
+  #now .now--title {
+    margin-left: 3px;
+  }
+  #now .now--top {
+    width: 1000px;
+  }
+}
+@media (max-width: 992px) {
+  #header .img img {
+    width: 46%;
+  }
+  #hero .hero--img__block img {
+    display: none;
+  }
+  #hero .hero--img img {
+    width: 90%;
+    padding-bottom: 180px;
+    margin-left: -13px;
+  }
+  #hero .hero--img__div p {
+    font-size: 30px;
+    margin-right: 515px;
+    bottom: 449px;
+  }
+  #hero .hero--img__div h1 {
+    bottom: 452px;
+    margin-right: 489px;
+  }
+  #hero .hero--img__div img {
+    width: 25%;
+    margin-left: -32px;
+    top: 58px;
+  }
+  #hero .hero--img__blur img {
+    margin-left: 39px;
+    top: 238px;
+  }
+  #hero .hero--title__nike h3 {
+    font-size: 18px;
+  }
+  #hero .hero--title__top--san1 h5 {
+    font-size: 70px;
+  }
+  #hero .hero--title__top--san1 p {
+    font-size: 12px;
+  }
+  #hero .hero--title__top--san2 h5 {
+    font-size: 70px;
+  }
+  #hero .hero--title__top--san2 p {
+    font-size: 12px;
+  }
+  #hero .hero--title__button .left {
+    font-size: 14px;
+    width: 117px;
+    height: 44px;
+  }
+  #hero .hero--title__button .right {
+    font-size: 14px;
+    width: 117px;
+    height: 44px;
+  }
+  #hero .hero--title p {
+    font-size: 14px;
+  }
+  #hero .hero--title h1 {
+    font-size: 44px;
+  }
+  #our .our--block__top img {
+    width: 80%;
+  }
+  #nike .nike--nav a {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #header .img img {
+    display: none;
+  }
+  #hero .hero {
+    flex-direction: column;
+  }
+  #hero .hero--img__block img {
+    display: none;
+  }
+  #hero .hero--img img {
+    width: 100%;
+    padding-bottom: 75px;
+    margin-left: -17px;
+  }
+  #hero .hero--img__div p {
+    font-size: 35px;
+    margin-right: 543px;
+    bottom: 426px;
+  }
+  #hero .hero--img__div h1 {
+    top: -427px;
+    margin-right: 520px;
+  }
+  #hero .hero--img__div img {
+    width: 25%;
+    margin-left: -8px;
+    top: 83px;
+  }
+  #hero .hero--img__blur img {
+    margin-left: 39px;
+    top: 288px;
+  }
+  #hero .hero--title__nike h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 137px;
+  }
+  #hero .hero--title__top {
+    margin-left: 129px;
+  }
+  #hero .hero--title__top--san1 h5 {
+    font-size: 70px;
+  }
+  #hero .hero--title__top--san1 p {
+    font-size: 12px;
+  }
+  #hero .hero--title__top--san2 h5 {
+    font-size: 70px;
+  }
+  #hero .hero--title__top--san2 p {
+    font-size: 12px;
+  }
+  #hero .hero--title__button {
+    text-align: center;
+  }
+  #hero .hero--title__button .left {
+    font-size: 14px;
+    width: 117px;
+    height: 44px;
+  }
+  #hero .hero--title__button .right {
+    font-size: 14px;
+    width: 117px;
+    height: 44px;
+  }
+  #hero .hero--title p {
+    font-size: 14px;
+    text-align: center;
+  }
+  #hero .hero--title h1 {
+    font-size: 56px;
+    text-align: center;
+  }
+  #hero .hero--title h4 {
+    text-align: center;
+  }
+  #our .our--block__top {
+    margin-left: -9px;
+  }
+  #our .our--block__top--icon {
+    margin-left: 80px;
+  }
+  #our .our--block__top p {
+    font-size: 20px;
+  }
+  #our .our--block__top h1 {
+    font-size: 18px;
+  }
+  #our .our--img1 {
+    display: none;
+  }
+  #our .our--img2 {
+    display: none;
+  }
+  #our .our--img3 {
+    display: none;
+  }
+  #story .story {
+    flex-direction: column;
+  }
+  #story .story--title {
+    width: 482.52px;
+    height: 460.84px;
+    bottom: 24px;
+  }
+  #story .story--title h1 {
+    font-size: 40px;
+  }
+  #story .story--title p {
+    font-size: 14px;
+  }
+  #story .story--icon img {
+    width: 50%;
+    bottom: -103px;
+    margin-left: 341px;
+  }
+  #story .story--icon ion-icon {
+    top: 20px;
+  }
+  #best .best {
+    flex-direction: column;
+  }
+  #best .best--title {
+    width: 486.95px;
+    height: 395.78px;
+  }
+  #best .best--title img {
+    width: 100%;
+    margin-left: 50px;
+  }
+  #best .best--top {
+    padding-top: 67px;
+  }
+  #best .best--top h1 {
+    bottom: 20px;
+  }
+  #best .best--top__pot--img img {
+    width: 425px;
+    left: 36px;
+    bottom: 17px;
+  }
+  #designer .designer {
+    flex-direction: column;
+  }
+  #designer .designer h1 {
+    font-size: 150.487px;
+    left: 166px;
+    bottom: 103px;
+  }
+  #designer .designer--div {
+    display: none;
+  }
+  #designer .designer--title {
+    width: 473.59px;
+    height: 336.72px;
+    margin-left: 94px;
+  }
+  #designer .designer--title__linia {
+    width: 346.87px;
+    height: 0;
+    opacity: 0.3;
+    border: 1px solid #000000;
+    margin-left: 61px;
+    margin-top: 15px;
+  }
+  #designer .designer--title__our h4 {
+    font-size: 27px;
+  }
+  #designer .designer--title__group--block {
+    margin-left: 3px;
+  }
+  #designer .designer--title__group--block h2 {
+    font-size: 18px;
+  }
+  #designer .designer--title__group--block p {
+    font-size: 14px;
+  }
+  #designer .designer--title__group--block--icon h3 {
+    font-size: 18px;
+  }
+  #designer .designer--start button {
+    font-size: 20px;
+    width: 142px;
+    height: 49px;
+  }
+  #designer .designer--start__icon {
+    margin-left: -27px;
+  }
+  #designer .designer--start__radio {
+    margin-left: 34px;
+  }
+  #now .now--title {
+    margin-left: 91px;
+    width: 80%;
+  }
+  #now .now--title h1 {
+    font-size: 20px;
+  }
+  #now .now--title p {
+    font-size: 12px;
+  }
+  #now .now--title button {
+    font-size: 12px;
+    width: 117px;
+    height: 37px;
+    margin-left: 222px;
+  }
+  #now .now--top {
+    width: 790px;
+  }
+}
+@media (max-width: 576px) {
+  #header .header--nav {
+    display: none;
+  }
+  #hero .hero--img__block img {
+    display: none;
+  }
+  #hero .hero--img img {
+    width: 90%;
+    padding-bottom: 51px;
+    margin-left: 12px;
+  }
+  #hero .hero--img__div {
+    display: none;
+  }
+  #hero .hero--img__div p {
+    font-size: 25px;
+    margin-right: 445px;
+    bottom: 306px;
+  }
+  #hero .hero--img__div h1 {
+    bottom: 372px;
+    margin-right: 513px;
+  }
+  #hero .hero--img__div img {
+    width: 22%;
+    margin-left: 9px;
+    top: 83px;
+  }
+  #hero .hero--img__blur img {
+    margin-left: 39px;
+    top: 238px;
+  }
+  #hero .hero--title__top--san1 h5 {
+    font-size: 70px;
+  }
+  #hero .hero--title__top--san1 p {
+    font-size: 12px;
+  }
+  #hero .hero--title__top--san2 h5 {
+    font-size: 70px;
+  }
+  #hero .hero--title__top--san2 p {
+    font-size: 12px;
+  }
+  #hero .hero--title__button .left {
+    font-size: 14px;
+    width: 117px;
+    height: 44px;
+  }
+  #hero .hero--title__button .right {
+    font-size: 14px;
+    width: 117px;
+    height: 44px;
+  }
+  #hero .hero--title p {
+    font-size: 14px;
+  }
+  #hero .hero--title h1 {
+    font-size: 56px;
+  }
+  #our .our--block {
+    flex-wrap: wrap;
+  }
+  #our .our--block__top img {
+    top: 100px;
+  }
+  #our .our--block__top button {
+    margin-left: 84px;
+  }
+  #our .our--block--title h1 {
+    font-size: 24px;
+  }
+  #our .our--block--title p {
+    font-size: 12px;
+  }
+  #our .our--block--img1 {
+    display: none;
+  }
+  #our .our--block--img2 {
+    display: none;
+  }
+  #our .our--block--img3 {
+    display: none;
+  }
+  #story .story h2 {
+    font-weight: 600;
+    font-size: 170.216px;
+  }
+  #story .story--title {
+    width: 340.52px;
+    height: 345.84px;
+    bottom: 101px;
+    margin-left: 51px;
+  }
+  #story .story--title h1 {
+    font-size: 30px;
+    padding-top: 61px;
+  }
+  #story .story--title p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  #story .story--icon img {
+    width: 50%;
+    margin-left: 249px;
+    bottom: 20px;
+  }
+  #story .story--icon ion-icon {
+    margin-left: 363px;
+    width: 10%;
+    margin-bottom: 88px;
+  }
+  #best .best--title {
+    width: 309.95px;
+    height: 216.78px;
+  }
+  #best .best--title img {
+    width: 95%;
+    margin-left: 72px;
+  }
+  #best .best--top__pot--img img {
+    width: 460px;
+    left: 9px;
+    bottom: -89px;
+  }
+  #designer .designer h1 {
+    font-size: 110.487px;
+    left: 133px;
+    bottom: 115px;
+  }
+  #designer .designer--div {
+    height: 411.4px;
+  }
+  #designer .designer--title {
+    width: 356.59px;
+    height: 250.72px;
+  }
+  #designer .designer--title__linia {
+    width: 346.87px;
+    height: 0;
+    opacity: 0.3;
+    border: 1px solid #000000;
+    margin-left: 61px;
+    margin-top: 15px;
+  }
+  #designer .designer--title__our h4 {
+    font-size: 20px;
     margin-left: 20px;
+  }
+  #designer .designer--title__group img {
+    width: 20%;
+    top: 20px;
+  }
+  #designer .designer--title__group--block {
+    margin-left: 3px;
+  }
+  #designer .designer--title__group--block h2 {
+    font-size: 15px;
+  }
+  #designer .designer--title__group--block p {
+    font-size: 10px;
+  }
+  #designer .designer--title__group--block--icon h3 {
+    font-size: 13px;
+  }
+  #designer .designer--start button {
+    font-size: 20px;
+    width: 142px;
+    height: 49px;
+  }
+  #designer .designer--start__icon {
+    margin-left: -27px;
+  }
+  #designer .designer--start__radio {
+    margin-left: 34px;
+  }
+  #now .now--title {
+    margin-left: 58px;
+    height: 176px;
+  }
+  #now .now--title button {
+    margin-left: 156px;
+  }
+  #now .now--top {
+    width: 610px;
+  }
+}
+@media (max-width: 451px) {
+  #header .header button {
+    font-size: 10px;
+    width: 94px;
+    height: 37px;
+  }
+  #header .header img {
+    width: 20%;
+  }
+  #hero .hero--img__block img {
+    display: none;
+  }
+  #hero .hero--img img {
+    width: 90%;
+    padding-bottom: 51px;
+    margin-left: 12px;
+  }
+  #hero .hero--img__div {
+    display: none;
+  }
+  #hero .hero--img__div p {
+    font-size: 25px;
+    margin-right: 445px;
+    bottom: 306px;
+  }
+  #hero .hero--img__div h1 {
+    bottom: 372px;
+    margin-right: 513px;
+  }
+  #hero .hero--img__div img {
+    width: 22%;
+    margin-left: 9px;
+    top: 83px;
+  }
+  #hero .hero--img__blur img {
+    margin-left: 39px;
+    top: 238px;
+  }
+  #hero .hero--title h4 {
+    font-size: 12px;
+  }
+  #hero .hero--title__nike h3 {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 108px;
+  }
+  #hero .hero--title__top {
+    margin-left: 71px;
+  }
+  #hero .hero--title__top--san1 h5 {
+    font-size: 40px;
+  }
+  #hero .hero--title__top--san1 p {
+    font-size: 8px;
+  }
+  #hero .hero--title__top--san2 h5 {
+    font-size: 40px;
+  }
+  #hero .hero--title__top--san2 p {
+    font-size: 8px;
+  }
+  #hero .hero--title__button .left {
+    font-size: 10px;
+    width: 91px;
+    height: 34px;
+  }
+  #hero .hero--title__button .right {
+    font-size: 10px;
+    width: 91px;
+    height: 34px;
+  }
+  #hero .hero--title p {
+    font-size: 9px;
+  }
+  #hero .hero--title h1 {
+    font-size: 30px;
+  }
+  #our .our--title h1 {
+    font-size: 24px;
+  }
+  #our .our--title p {
+    font-size: 12px;
+  }
+  #our .our--block {
+    flex-wrap: wrap;
+  }
+  #our .our--block__top {
+    top: 20px;
+  }
+  #our .our--block__top img {
+    top: 100px;
+  }
+  #our .our--block__top button {
+    margin-left: 84px;
+  }
+  #our .our--block--img1 {
+    display: none;
+  }
+  #our .our--block--img2 {
+    display: none;
+  }
+  #our .our--block--img3 {
+    display: none;
+  }
+  #story .story h2 {
+    font-weight: 600;
+    font-size: 170.216px;
+  }
+  #story .story--title {
+    width: 340.52px;
+    height: 345.84px;
+    bottom: 101px;
+    margin-left: 51px;
+  }
+  #story .story--title h1 {
+    font-size: 30px;
+    padding-top: 61px;
+  }
+  #story .story--title p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  #story .story--icon img {
+    width: 60%;
+    margin-left: 180px;
+    bottom: 18px;
+  }
+  #story .story--icon ion-icon {
+    margin-left: 300px;
+    width: 10%;
+    margin-bottom: 88px;
+  }
+  #best .best--title {
+    width: 309.95px;
+    height: 216.78px;
+  }
+  #best .best--title img {
+    width: 95%;
+    margin-left: 72px;
+  }
+  #best .best--top__pot--img img {
+    width: 318px;
+    left: 66px;
+    bottom: 31px;
+  }
+  #designer .designer h1 {
+    font-size: 110.487px;
+    left: 181px;
+    bottom: 115px;
+  }
+  #designer .designer--div {
+    height: 411.4px;
+  }
+  #designer .designer--title {
+    width: 356.59px;
+    height: 250.72px;
+  }
+  #designer .designer--title__linia {
+    width: 346.87px;
+    height: 0;
+    opacity: 0.3;
+    border: 1px solid #000000;
+    margin-left: 61px;
+    margin-top: 15px;
+  }
+  #designer .designer--title__our h4 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  #designer .designer--title__group img {
+    width: 20%;
+    top: 20px;
+  }
+  #designer .designer--title__group--block {
+    margin-left: 3px;
+  }
+  #designer .designer--title__group--block h2 {
+    font-size: 15px;
+  }
+  #designer .designer--title__group--block p {
+    font-size: 10px;
+  }
+  #designer .designer--title__group--block--icon h3 {
+    font-size: 13px;
+  }
+  #designer .designer--start button {
+    font-size: 20px;
+    width: 142px;
+    height: 49px;
+  }
+  #designer .designer--start__icon {
+    margin-left: -27px;
+  }
+  #designer .designer--start__radio {
+    margin-left: 34px;
+  }
+  #now .now--title {
+    margin-left: 58px;
+    height: 176px;
+  }
+  #now .now--title button {
+    margin-left: 112px;
+  }
+  #now .now--top {
+    width: 486px;
+  }
+  #nike .nike--icon {
+    width: 60%;
+  }
+  #nike .nike--icon h1 {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  #header .header button {
+    font-size: 10px;
+    width: 94px;
+    height: 37px;
+  }
+  #header .header img {
+    width: 20%;
+  }
+  #hero .hero--img__block img {
+    display: none;
+  }
+  #hero .hero--img img {
+    width: 90%;
+    padding-bottom: 51px;
+    margin-left: 12px;
+  }
+  #hero .hero--img__div {
+    display: none;
+  }
+  #hero .hero--img__div p {
+    font-size: 25px;
+    margin-right: 445px;
+    bottom: 306px;
+  }
+  #hero .hero--img__div h1 {
+    bottom: 372px;
+    margin-right: 513px;
+  }
+  #hero .hero--img__div img {
+    width: 22%;
+    margin-left: 9px;
+    top: 83px;
+  }
+  #hero .hero--img__blur img {
+    margin-left: 39px;
+    top: 238px;
+  }
+  #hero .hero--title h4 {
+    font-size: 12px;
+  }
+  #hero .hero--title__nike h3 {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 108px;
+  }
+  #hero .hero--title__top {
+    margin-left: 71px;
+  }
+  #hero .hero--title__top--san1 h5 {
+    font-size: 40px;
+  }
+  #hero .hero--title__top--san1 p {
+    font-size: 8px;
+  }
+  #hero .hero--title__top--san2 h5 {
+    font-size: 40px;
+  }
+  #hero .hero--title__top--san2 p {
+    font-size: 8px;
+  }
+  #hero .hero--title__button .left {
+    font-size: 10px;
+    width: 91px;
+    height: 34px;
+  }
+  #hero .hero--title__button .right {
+    font-size: 10px;
+    width: 91px;
+    height: 34px;
+  }
+  #hero .hero--title p {
+    font-size: 9px;
+  }
+  #hero .hero--title h1 {
+    font-size: 30px;
+  }
+  #our .our--title h1 {
+    font-size: 24px;
+  }
+  #our .our--title p {
+    font-size: 12px;
+  }
+  #our .our--block {
+    flex-wrap: wrap;
+  }
+  #our .our--block__top {
+    top: 20px;
+  }
+  #our .our--block__top img {
+    top: 100px;
+  }
+  #our .our--block__top button {
+    margin-left: 84px;
+  }
+  #our .our--block--img1 {
+    display: none;
+  }
+  #our .our--block--img2 {
+    display: none;
+  }
+  #our .our--block--img3 {
+    display: none;
+  }
+  #story .story h2 {
+    display: none;
+  }
+  #story .story--title {
+    width: 340.52px;
+    height: 345.84px;
+    bottom: -68px;
+    margin-left: -10px;
+  }
+  #story .story--title h1 {
+    font-size: 30px;
+    padding-top: 61px;
+  }
+  #story .story--title p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  #story .story--icon img {
+    width: 60%;
+    margin-left: 131px;
+    bottom: -128px;
+  }
+  #story .story--icon ion-icon {
+    display: none;
+  }
+  #best .best--title {
+    width: 309.95px;
+    height: 216.78px;
+  }
+  #best .best--title img {
+    width: 95%;
+    margin-left: 47px;
+  }
+  #best .best--top__pot--img img {
+    width: 268px;
+    left: 66px;
+    bottom: 31px;
+  }
+  #designer .designer h1 {
+    display: none;
+  }
+  #designer .designer--div {
+    height: 411.4px;
+  }
+  #designer .designer--title {
+    width: 356.59px;
+    height: 250.72px;
+  }
+  #designer .designer--title__linia {
+    width: 346.87px;
+    height: 0;
+    opacity: 0.3;
+    border: 1px solid #000000;
+    margin-left: 61px;
+    margin-top: 15px;
+  }
+  #designer .designer--title__our h4 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  #designer .designer--title__group img {
+    width: 20%;
+    top: 20px;
+  }
+  #designer .designer--title__group--block {
+    margin-left: 3px;
+  }
+  #designer .designer--title__group--block h2 {
+    font-size: 15px;
+  }
+  #designer .designer--title__group--block p {
+    font-size: 10px;
+  }
+  #designer .designer--title__group--block--icon h3 {
+    font-size: 13px;
+  }
+  #designer .designer--start button {
+    font-size: 20px;
+    width: 142px;
+    height: 49px;
+  }
+  #designer .designer--start__icon {
+    margin-left: -27px;
+  }
+  #designer .designer--start__radio {
+    margin-left: 34px;
+  }
+  #now .now--title {
+    margin-left: 58px;
+    height: 176px;
+  }
+  #now .now--title p {
+    font-size: 10px;
+  }
+  #now .now--title button {
+    margin-left: 87px;
+  }
+  #now .now--top {
+    width: 441px;
+  }
+  #nike .nike--icon {
+    width: 40%;
+  }
+  #nike .nike--icon h1 {
+    display: none;
+  }
+}
+@media (max-width: 376px) {
+  #hero .hero--title__nike h3 {
+    font-size: 10px;
+  }
+  #hero .hero--img__blur img {
+    top: 134px;
+  }
+  #now .now--title {
+    margin-left: 58px;
+    height: 176px;
+  }
+  #now .now--title p {
+    font-size: 10px;
+  }
+  #now .now--title button {
+    margin-left: 87px;
+  }
+  #now .now--top {
+    width: 415px;
+  }
+}
+@media (max-width: 320px) {
+  #hero .hero--title__nike h3 {
+    font-size: 9px;
+  }
+  #story .story--title {
+    width: 255.52px;
+    height: 256.84px;
+    bottom: -117px;
+    margin-left: -10px;
+  }
+  #story .story--title h1 {
+    font-size: 20px;
+  }
+  #story .story--icon img {
+    width: 60%;
+    margin-left: 42px;
+    bottom: -193px;
+  }
+  #best .best--title {
+    display: none;
+  }
+  #best .best--title img {
+    margin-left: 10px;
+  }
+  #best .best--top__pot--img img {
+    width: 217px;
+  }
+  #designer .designer--title {
+    width: 274.59px;
+  }
+  #now .now--title {
+    margin-left: 33px;
+  }
+  #now .now--title button {
+    margin-left: 63px;
+  }
+  #now .now--top {
+    width: 367px;
+  }
+  #nike .nike--icon {
+    width: 55%;
+  }
+  #nike .nike img {
+    width: 87px;
+  }
+  #footer {
+    padding: 7px 0;
   }
 }
 

@@ -14,51 +14,1766 @@
   #hero {
     .hero {
       &--img {
-        &__div {
+        &__block {
           img {
-            width: 30%;
-            margin-left: 30px;
+            display: none;
+          }
+        }
+        img {
+          width: 100%;
+          padding-bottom: 75px;
+          margin-left: -73px;
+        }
+        &__div {
+          p {
+            font-size: 35px;
+            margin-right: 515px;
+            bottom: 370px;
+          }
+          h1 {
+            bottom: 372px;
+            margin-right: 513px;
+          }
+          img {
+            width: 27%;
+            margin-left: -45px;
+            top: 83px;
           }
         }
         &__blur {
           img {
-            width: 90%;
+            margin-left: 39px;
+            top: 238px;
           }
         }
-        img {
-          width: 66%;
-          top: -111px;
+      }
+      &--title {
+        &__top {
+          &--san1 {
+            h5 {
+              font-size: 70px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+          &--san2 {
+            h5 {
+              font-size: 70px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+        &__button {
+            .left {
+              font-size: 14px;
+              width: 117px;
+              height: 44px;
+            }
+          .right {
+            font-size: 14px;
+            width: 117px;
+            height: 44px;
+          }
+        }
+        p {
+          font-size: 14px;
         }
         h1 {
-          top: -186px;
-          margin-left: 20px;
+          font-size: 56px;
         }
       }
     }
   }
+  #our {
+    .our {
+      &iititle {
 
+      }
+      &--img1 {
+        display: none;
+      }
+      &--img2 {
+        display: none;
+      }
+      &--img3 {
+        display: none;
+      }
+    }
+  }
+  #story {
+    .story {
+      &--title {
+        width: 482.52px;
+        height: 460.84000000000003px;
+        bottom: 24px;
+        h1 {
+          font-size: 40px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+      &--icon {
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
+  #best {
+    .best {
+      &--title {
+        width: 486.95000000000005px;
+        height: 395.78px;
+        img {
+          width: 100%;
+          margin-left: 50px;
+        }
+      }
+      &--top {
+        &__pot {
+          &--img {
+            img {
+              width: 460px;
+              left: 9px;
+              bottom: -89px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #designer {
+    .designer {
+      h1 {
+        font-size: 200.487px;
+        left: 570px;
+      }
+      &--div {
+        height: 411.4px
+      }
+      &--title {
+        width: 473.59000000000003px;
+        height: 336.72px;
+        &__linia {
+          width: 346.87px;
+          height: 0;
+          opacity: 0.3;
+          border: 1px solid #000000;
+          margin-left: 61px;
+          margin-top: 15px;
+        }
+        &__our {
+          h4 {
+            font-size: 27px;
+          }
+        }
+        &__group {
+          &--block {
+            margin-left: 3px;
+            h2 {
+              font-size: 18px;
+            }
+            p {
+              font-size: 14px;
+            }
+            &--icon {
+              h3 {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+      &--start {
+        button {
+          font-size: 20px;
+          width: 142px;
+          height: 49px;
+        }
+        &__icon {
+          margin-left: -27px;
+        }
+      }
+      &--start__radio {
+        margin-left: 34px;
+      }
+    }
+  }
+  #now {
+    .now {
+      &--title {
+        margin-left: 91px;
+      }
+      &--top {
+        width: 1203px;
+      }
+    }
+  }
+  #nike {
+
+  }
+  #footer {
+
+  }
 }
 @media (max-width: 1024px) {
+  #header {
+    .img {
+      img {
+        width: 47%;
+      }
+    }
+  }
+  #hero {
+    .hero {
+      &--img {
+        &__block {
+          img {
+            display: none;
+          }
+        }
+        img {
+          width: 100%;
+          padding-bottom: 75px;
+          margin-left: -73px;
+        }
+        &__div {
+          p {
+            font-size: 35px;
+            margin-right: 515px;
+            bottom: 370px;
+          }
+          h1 {
+            bottom: 372px;
+            margin-right: 513px;
+          }
+          img {
+            width: 27%;
+            margin-left: -45px;
+            top: 83px;
+          }
+        }
+        &__blur {
+          img {
+            margin-left: 39px;
+            top: 238px;
+          }
+        }
+      }
+      &--title {
+        &__nike {
+          h3 {
+            font-size: 18px;
+          }
+        }
+        &__top {
+          &--san1 {
+            h5 {
+              font-size: 70px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+          &--san2 {
+            h5 {
+              font-size: 70px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+        &__button {
+          .left {
+            font-size: 14px;
+            width: 117px;
+            height: 44px;
+          }
+          .right {
+            font-size: 14px;
+            width: 117px;
+            height: 44px;
+          }
+        }
+        p {
+          font-size: 14px;
+        }
+        h1 {
+          font-size: 48px;
+        }
+      }
+    }
+  }
+  #our {
+    .our {
+      &iititle {
 
+      }
+      &--img1 {
+        display: none;
+      }
+      &--img2 {
+        display: none;
+      }
+      &--img3 {
+        display: none;
+      }
+    }
+  }
+  #story {
+    .story {
+      h2 {
+        font-weight: 600;
+        font-size: 210.216px;
+      }
+      &--title {
+        width: 406.52px;
+        height: 444.84px;
+        bottom: 0;
+        h1 {
+          font-size: 36px;
+        }
+        p {
+          font-size: 10px;
+        }
+      }
+      &--icon {
+        img {
+          width: 48%;
+          margin-left: 282px;
+          bottom: 66px;
+        }
+        ion-icon {
+          margin-left: 471px;
+          bottom: 20px;
+        }
+      }
+    }
+  }
+  #best {
+    .best {
+      &--title {
+        width: 382.95px;
+        height: 285.78px;
+
+        img {
+          width: 100%;
+          margin-left: 50px;
+        }
+      }
+    }
+    &--top {
+      h1 {
+        font-size: 10px;
+      }
+      &__pot {
+        &--img {
+          img {
+            width: 382px;
+            left: 78px;
+            bottom: -6px;
+          }
+        }
+      }
+    }
+  }
+  #designer {
+    .designer {
+      h1 {
+        font-size: 150.487px;
+        left: 479px;
+      }
+      &--div {
+        height: 411.4px
+      }
+      &--title {
+        width: 385.59px;
+        height: 320.72px;
+        left: -96px;
+        &__linia {
+          display: none;
+        }
+        &__our {
+          h4 {
+            font-size: 20px;
+          }
+        }
+        &__group {
+          &--block {
+            margin-left: 3px;
+            h2 {
+              font-size: 18px;
+            }
+            p {
+              font-size: 14px;
+            }
+            &--icon {
+              h3 {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+      &--start {
+        button {
+          font-size: 20px;
+          width: 142px;
+          height: 49px;
+        }
+        &__icon {
+          margin-left: -27px;
+        }
+      }
+      &--start__radio {
+        margin-left: 34px;
+      }
+    }
+  }
+  #now {
+    .now {
+      &--title {
+        margin-left: 3px;
+      }
+      &--top {
+        width: 1000px;
+      }
+    }
+  }
 }
 @media  (max-width: 992px) {
-
+  #header {
+    .img {
+      img {
+        width: 46%;
+      }
+    }
+  }
+  #hero {
+    .hero {
+      &--img {
+        &__block {
+          img {
+            display: none;
+          }
+        }
+        img {
+          width: 90%;
+          padding-bottom: 180px;
+          margin-left: -13px;
+        }
+        &__div {
+          p {
+            font-size: 30px;
+            margin-right: 515px;
+            bottom: 449px;
+          }
+          h1 {
+            bottom: 452px;
+            margin-right: 489px;
+          }
+          img {
+            width: 25%;
+            margin-left: -32px;
+            top: 58px;
+          }
+        }
+        &__blur {
+          img {
+            margin-left: 39px;
+            top: 238px;
+          }
+        }
+      }
+      &--title {
+        &__nike {
+          h3 {
+            font-size: 18px;
+          }
+        }
+        &__top {
+          &--san1 {
+            h5 {
+              font-size: 70px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+          &--san2 {
+            h5 {
+              font-size: 70px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+        &__button {
+          .left {
+            font-size: 14px;
+            width: 117px;
+            height: 44px;
+          }
+          .right {
+            font-size: 14px;
+            width: 117px;
+            height: 44px;
+          }
+        }
+        p {
+          font-size: 14px;
+        }
+        h1 {
+          font-size: 44px;
+        }
+      }
+    }
+  }
+  #our {
+    .our {
+      &--block {
+        &__top {
+          img {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+  #nike {
+    .nike {
+      &--nav {
+        a {
+          display: none;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 768px) {
+  #header {
+    .img {
+      img {
+       display: none;
+      }
+    }
+  }
+  #hero {
+    .hero {
+      flex-direction: column;
+      &--img {
+        &__block {
+          img {
+            display: none;
+          }
+        }
+        img {
+          width: 100%;
+          padding-bottom: 75px;
+          margin-left: -17px;
+        }
+        &__div {
+          p {
+            font-size: 35px;
+            margin-right: 543px;
+            bottom: 426px;
+          }
+          h1 {
+            top: -427px;
+            margin-right: 520px;
+          }
+          img {
+            width: 25%;
+            margin-left: -8px;
+            top: 83px;
+          }
+        }
+        &__blur {
+          img {
+            margin-left: 39px;
+            top: 288px;
+          }
+        }
+      }
+      &--title {
+        &__nike {
+          h3 {
+            font-size: 18px;
+            text-align: center;
+            margin-left: 137px;
+          }
+        }
+        &__top {
+          margin-left: 129px;
+          &--san1 {
+            h5 {
+              font-size: 70px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+          &--san2 {
+            h5 {
+              font-size: 70px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+        &__button {
+          text-align: center;
+          .left {
+            font-size: 14px;
+            width: 117px;
+            height: 44px;
+          }
+          .right {
+            font-size: 14px;
+            width: 117px;
+            height: 44px;
+          }
+        }
+        p {
+          font-size: 14px;
+          text-align: center;
+        }
+        h1 {
+          font-size: 56px;
+          text-align: center;
+        }
+        h4 {
+          text-align: center;
+        }
+      }
+    }
+  }
+  #our {
+    .our {
+      &--title {
+      }
+        &--block {
+          &__top {
+            margin-left: -9px;
+            &--icon {
+              margin-left: 80px;
+            }
+            p {
+              font-size: 20px;
+            }
+            h1 {
+              font-size: 18px;
+            }
+          }
+        }
+      &--img1 {
+        display: none;
+      }
+      &--img2 {
+        display: none;
+      }
+      &--img3 {
+        display: none;
+      }
+    }
+  }
+  #story {
+    .story {
+      flex-direction: column;
+      &--title {
+        width: 482.52px;
+        height: 460.84000000000003px;
+        bottom: 24px;
+        h1 {
+          font-size: 40px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+      &--icon {
+        img {
+          width: 50%;
+          bottom: -103px;
+          margin-left: 341px;
+        }
+        ion-icon {
+          top: 20px;
+        }
+      }
+    }
+  }
+  #best {
+    .best {
+      flex-direction: column;
+      &--title {
+        width: 486.95000000000005px;
+        height: 395.78px;
+        img {
+          width: 100%;
+          margin-left: 50px;
+        }
+      }
+      &--top {
+       padding-top: 67px;
+        h1 {
+          bottom: 20px;
+        }
+        &__pot {
+          &--img {
+            img {
+              width: 425px;
+              left: 36px;
+              bottom: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #designer {
+    .designer {
+      flex-direction: column;
+      h1 {
+        font-size: 150.487px;
+        left: 166px;
+        bottom: 103px;
+      }
+      &--div {
+        display: none;
+      }
+      &--title {
+        width: 473.59000000000003px;
+        height: 336.72px;
+        margin-left: 94px;
+        &__linia {
+          width: 346.87px;
+          height: 0;
+          opacity: 0.3;
+          border: 1px solid #000000;
+          margin-left: 61px;
+          margin-top: 15px;
+        }
+        &__our {
+          h4 {
+            font-size: 27px;
+          }
+        }
+        &__group {
+          &--block {
+            margin-left: 3px;
+            h2 {
+              font-size: 18px;
+            }
+            p {
+              font-size: 14px;
+            }
+            &--icon {
+              h3 {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+      &--start {
+        button {
+          font-size: 20px;
+          width: 142px;
+          height: 49px;
+        }
+        &__icon {
+          margin-left: -27px;
+        }
+      }
+      &--start__radio {
+        margin-left: 34px;
+      }
+    }
+  }
+  #now {
+    .now {
+      &--title {
+        margin-left: 91px;
+        width: 80%;
+        h1 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 12px;
+        }
+        button {
+          font-size: 12px;
+          width: 117px;
+          height: 37px;
+          margin-left: 222px;
+        }
+      }
+      &--top {
+        width: 790px;
+      }
+    }
+  }
+  #nike {
 
+  }
+  #footer {
+
+  }
 }
 @media  (max-width: 576px) {
+  #header {
+   .header {
+     &--nav {
+       display: none;
+     }
+   }
+  }
+  #hero {
+    .hero {
+      &--img {
+        &__block {
+          img {
+            display: none;
+          }
+        }
+        img {
+          width: 90%;
+          padding-bottom: 51px;
+          margin-left: 12px;
+        }
+        &__div {
+          display: none;
+          p {
+            font-size: 25px;
+            margin-right: 445px;
+            bottom: 306px;
+          }
+          h1 {
+            bottom: 372px;
+            margin-right: 513px;
+          }
+          img {
+            width: 22%;
+            margin-left: 9px;
+            top: 83px;
+          }
+        }
+        &__blur {
+          img {
+            margin-left: 39px;
+            top: 238px;
+          }
+        }
+      }
+      &--title {
+        &__top {
+          &--san1 {
+            h5 {
+              font-size: 70px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+          &--san2 {
+            h5 {
+              font-size: 70px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+        &__button {
+          .left {
+            font-size: 14px;
+            width: 117px;
+            height: 44px;
+          }
+          .right {
+            font-size: 14px;
+            width: 117px;
+            height: 44px;
+          }
+        }
+        p {
+          font-size: 14px;
+        }
+        h1 {
+          font-size: 56px;
+        }
+      }
+    }
+  }
+  #our {
+    .our {
+      &--block {
+       flex-wrap: wrap;
+        &__top {
+          img {
+            top: 100px;
+          }
+          button {
+            margin-left: 84px;
+          }
+        }
 
+        &--title {
+          h1 {
+            font-size: 24px;
+          }
+
+          p {
+            font-size: 12px;
+          }
+        }
+
+        &--img1 {
+          display: none;
+        }
+
+        &--img2 {
+          display: none;
+        }
+
+        &--img3 {
+          display: none;
+        }
+      }
+    }
+  }
+  #story {
+    .story {
+      h2 {
+        font-weight: 600;
+        font-size: 170.216px;
+      }
+      &--title {
+        width: 340.52px;
+        height: 345.84px;
+        bottom: 101px;
+        margin-left: 51px;
+        h1 {
+          font-size: 30px;
+          padding-top: 61px;
+        }
+        p {
+          font-size: 14px;
+          padding-bottom: 20px;
+        }
+      }
+      &--icon {
+        img {
+          width: 50%;
+          margin-left: 249px;
+          bottom: 20px;
+        }
+        ion-icon {
+          margin-left: 363px;
+          width: 10%;
+          margin-bottom: 88px;
+        }
+      }
+    }
+  }
+  #best {
+    .best {
+      &--title {
+        width: 309.95px;
+        height: 216.77999999999997px;
+        img {
+          width: 95%;
+          margin-left: 72px;
+        }
+      }
+      &--top {
+        &__pot {
+          &--img {
+            img {
+              width: 460px;
+              left: 9px;
+              bottom: -89px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #designer {
+    .designer {
+      h1 {
+        font-size: 110.487px;
+        left: 133px;
+        bottom: 115px;
+      }
+      &--div {
+        height: 411.4px
+      }
+      &--title {
+        width: 356.59px;
+        height: 250.72000000000003px;
+        &__linia {
+          width: 346.87px;
+          height: 0;
+          opacity: 0.3;
+          border: 1px solid #000000;
+          margin-left: 61px;
+          margin-top: 15px;
+        }
+        &__our {
+          h4 {
+            font-size: 20px;
+            margin-left: 20px;
+          }
+        }
+        &__group {
+          img {
+            width: 20%;
+            top: 20px;
+          }
+          &--block {
+            margin-left: 3px;
+            h2 {
+              font-size: 15px;
+            }
+            p {
+              font-size: 10px;
+            }
+            &--icon {
+              h3 {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+      &--start {
+        button {
+          font-size: 20px;
+          width: 142px;
+          height: 49px;
+        }
+        &__icon {
+          margin-left: -27px;
+        }
+      }
+      &--start__radio {
+        margin-left: 34px;
+      }
+    }
+  }
+  #now {
+    .now {
+      &--title {
+        margin-left: 58px;
+        height: 176px;
+        button {
+          margin-left: 156px;
+        }
+      }
+      &--top {
+        width: 610px;
+      }
+    }
+  }
+  #nike {
+
+  }
+  #footer {
+
+  }
 }
 @media (max-width: 451px) {
+  #header {
+    .header {
+      button {
+        font-size: 10px;
+        width: 94px;
+        height: 37px;
+      }
+      img {
+        width: 20%;
+      }
+    }
+  }
+  #hero {
+    .hero {
+      &--img {
+        &__block {
+          img {
+            display: none;
+          }
+        }
+        img {
+          width: 90%;
+          padding-bottom: 51px;
+          margin-left: 12px;
+        }
+        &__div {
+          display: none;
+          p {
+            font-size: 25px;
+            margin-right: 445px;
+            bottom: 306px;
+          }
+          h1 {
+            bottom: 372px;
+            margin-right: 513px;
+          }
+          img {
+            width: 22%;
+            margin-left: 9px;
+            top: 83px;
+          }
+        }
+        &__blur {
+          img {
+            margin-left: 39px;
+            top: 238px;
+          }
+        }
+      }
+      &--title {
+        h4 {
+          font-size: 12px;
+        }
+        &__nike {
+          h3 {
+            font-size: 14px;
+            text-align: center;
+            margin-left: 108px;
+          }
+        }
+        &__top {
+          margin-left: 71px;
+          &--san1 {
+            h5 {
+              font-size: 40px;
+            }
+            p {
+              font-size: 8px;
+            }
+          }
+          &--san2 {
+            h5 {
+              font-size: 40px;
+            }
+            p {
+              font-size: 8px;
+            }
+          }
+        }
+        &__button {
+          .left {
+            font-size: 10px;
+            width: 91px;
+            height: 34px;
+          }
+          .right {
+            font-size: 10px;
+            width: 91px;
+            height: 34px;
+          }
+        }
+        p {
+          font-size: 9px;
+        }
+        h1 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  #our {
+    .our {
+      &--title {
+        h1 {
+          font-size: 24px;
+        }
 
+        p {
+          font-size: 12px;
+        }
+      }
+      &--block {
+        flex-wrap: wrap;
+        &__top {
+          top: 20px;
+          img {
+            top: 100px;
+          }
+          button {
+            margin-left: 84px;
+          }
+        }
+
+        &--img1 {
+          display: none;
+        }
+
+        &--img2 {
+          display: none;
+        }
+
+        &--img3 {
+          display: none;
+        }
+      }
+    }
+  }
+  #story {
+    .story {
+      h2 {
+        font-weight: 600;
+        font-size: 170.216px;
+      }
+      &--title {
+        width: 340.52px;
+        height: 345.84px;
+        bottom: 101px;
+        margin-left: 51px;
+        h1 {
+          font-size: 30px;
+          padding-top: 61px;
+        }
+        p {
+          font-size: 14px;
+          padding-bottom: 20px;
+        }
+      }
+      &--icon {
+        img {
+          width: 60%;
+          margin-left: 180px;
+          bottom: 18px;
+        }
+        ion-icon {
+          margin-left: 300px;
+          width: 10%;
+          margin-bottom: 88px;
+        }
+      }
+    }
+  }
+  #best {
+    .best {
+      &--title {
+        width: 309.95px;
+        height: 216.77999999999997px;
+        img {
+          width: 95%;
+          margin-left: 72px;
+        }
+      }
+      &--top {
+        &__pot {
+          &--img {
+            img {
+              width: 318px;
+              left: 66px;
+              bottom: 31px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #designer {
+    .designer {
+      h1 {
+        font-size: 110.487px;
+        left: 181px;
+        bottom: 115px;
+      }
+      &--div {
+        height: 411.4px
+      }
+      &--title {
+        width: 356.59px;
+        height: 250.72000000000003px;
+        &__linia {
+          width: 346.87px;
+          height: 0;
+          opacity: 0.3;
+          border: 1px solid #000000;
+          margin-left: 61px;
+          margin-top: 15px;
+        }
+        &__our {
+          h4 {
+            font-size: 20px;
+            margin-left: 20px;
+          }
+        }
+        &__group {
+          img {
+            width: 20%;
+            top: 20px;
+          }
+          &--block {
+            margin-left: 3px;
+            h2 {
+              font-size: 15px;
+            }
+            p {
+              font-size: 10px;
+            }
+            &--icon {
+              h3 {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+      &--start {
+        button {
+          font-size: 20px;
+          width: 142px;
+          height: 49px;
+        }
+        &__icon {
+          margin-left: -27px;
+        }
+      }
+      &--start__radio {
+        margin-left: 34px;
+      }
+    }
+  }
+  #now {
+    .now {
+      &--title {
+        margin-left: 58px;
+        height: 176px;
+        button {
+          margin-left: 112px;
+        }
+      }
+      &--top {
+        width: 486px;
+      }
+    }
+  }
+  #nike {
+    .nike {
+      &--icon {
+        width: 60%;
+        h1 {
+          display: none;
+        }
+      }
+    }
+  }
 }
 @media  (max-width: 400px) {
+  #header {
+    .header {
+      button {
+        font-size: 10px;
+        width: 94px;
+        height: 37px;
+      }
+      img {
+        width: 20%;
+      }
+    }
+  }
+  #hero {
+    .hero {
+      &--img {
+        &__block {
+          img {
+            display: none;
+          }
+        }
+        img {
+          width: 90%;
+          padding-bottom: 51px;
+          margin-left: 12px;
+        }
+        &__div {
+          display: none;
+          p {
+            font-size: 25px;
+            margin-right: 445px;
+            bottom: 306px;
+          }
+          h1 {
+            bottom: 372px;
+            margin-right: 513px;
+          }
+          img {
+            width: 22%;
+            margin-left: 9px;
+            top: 83px;
+          }
+        }
+        &__blur {
+          img {
+            margin-left: 39px;
+            top: 238px;
+          }
+        }
+      }
+      &--title {
+        h4 {
+          font-size: 12px;
+        }
+        &__nike {
+          h3 {
+            font-size: 12px;
+            text-align: center;
+            margin-left: 108px;
+          }
+        }
+        &__top {
+          margin-left: 71px;
+          &--san1 {
+            h5 {
+              font-size: 40px;
+            }
+            p {
+              font-size: 8px;
+            }
+          }
+          &--san2 {
+            h5 {
+              font-size: 40px;
+            }
+            p {
+              font-size: 8px;
+            }
+          }
+        }
+        &__button {
+          .left {
+            font-size: 10px;
+            width: 91px;
+            height: 34px;
+          }
+          .right {
+            font-size: 10px;
+            width: 91px;
+            height: 34px;
+          }
+        }
+        p {
+          font-size: 9px;
+        }
+        h1 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  #our {
+    .our {
+      &--title {
+        h1 {
+          font-size: 24px;
+        }
 
+        p {
+          font-size: 12px;
+        }
+      }
+      &--block {
+        flex-wrap: wrap;
+        &__top {
+          top: 20px;
+          img {
+            top: 100px;
+          }
+          button {
+            margin-left: 84px;
+          }
+        }
+
+        &--img1 {
+          display: none;
+        }
+
+        &--img2 {
+          display: none;
+        }
+
+        &--img3 {
+          display: none;
+        }
+      }
+    }
+  }
+  #story {
+    .story {
+      h2 {
+       display: none;
+      }
+      &--title {
+        width: 340.52px;
+        height: 345.84px;
+        bottom: -68px;
+        margin-left: -10px;
+        h1 {
+          font-size: 30px;
+          padding-top: 61px;
+        }
+        p {
+          font-size: 14px;
+          padding-bottom: 20px;
+        }
+      }
+      &--icon {
+        img {
+          width: 60%;
+          margin-left: 131px;
+          bottom: -128px;
+        }
+        ion-icon {
+          display: none;
+        }
+      }
+    }
+  }
+  #best {
+    .best {
+      &--title {
+        width: 309.95px;
+        height: 216.77999999999997px;
+        img {
+          width: 95%;
+          margin-left: 47px;
+        }
+      }
+      &--top {
+        &__pot {
+          &--img {
+            img {
+              width: 268px;
+              left: 66px;
+              bottom: 31px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #designer {
+    .designer {
+      h1 {
+       display: none;
+      }
+      &--div {
+        height: 411.4px
+      }
+      &--title {
+        width: 356.59px;
+        height: 250.72000000000003px;
+        &__linia {
+          width: 346.87px;
+          height: 0;
+          opacity: 0.3;
+          border: 1px solid #000000;
+          margin-left: 61px;
+          margin-top: 15px;
+        }
+        &__our {
+          h4 {
+            font-size: 20px;
+            margin-left: 20px;
+          }
+        }
+        &__group {
+          img {
+            width: 20%;
+            top: 20px;
+          }
+          &--block {
+            margin-left: 3px;
+            h2 {
+              font-size: 15px;
+            }
+            p {
+              font-size: 10px;
+            }
+            &--icon {
+              h3 {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+      &--start {
+        button {
+          font-size: 20px;
+          width: 142px;
+          height: 49px;
+        }
+        &__icon {
+          margin-left: -27px;
+        }
+      }
+      &--start__radio {
+        margin-left: 34px;
+      }
+    }
+  }
+  #now {
+    .now {
+      &--title {
+        margin-left: 58px;
+        height: 176px;
+        p {
+          font-size: 10px;
+        }
+        button {
+          margin-left: 87px;
+        }
+      }
+      &--top {
+        width: 441px;
+      }
+    }
+  }
+  #nike {
+    .nike {
+      &--icon {
+        width: 40%;
+        h1 {
+          display: none;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 376px) {
-
+  #hero {
+    .hero {
+      &--title {
+        &__nike {
+          h3 {
+            font-size: 10px;
+          }
+        }
+      }
+      &--img {
+        &__blur {
+          img {
+            top: 134px;
+          }
+        }
+      }
+    }
+  }
+  #now {
+    .now {
+      &--title {
+        margin-left: 58px;
+        height: 176px;
+        p {
+          font-size: 10px;
+        }
+        button {
+          margin-left: 87px;
+        }
+      }
+      &--top {
+        width: 415px;
+      }
+    }
+  }
 }
 @media  (max-width: 320px) {
-
+ #hero {
+   .hero {
+     &--title {
+       &__nike {
+         h3 {
+           font-size: 9px;
+         }
+       }
+     }
+   }
+ }
+  #story {
+    .story {
+      &--title {
+        width: 255.51999999999998px;
+        height: 256.84px;
+        bottom: -117px;
+        margin-left: -10px;
+        h1 {
+          font-size: 20px;
+        }
+      }
+      &--icon {
+        img {
+          width: 60%;
+          margin-left: 42px;
+          bottom: -193px;
+        }
+      }
+    }
+  }
+  #best {
+    .best {
+      &--title {
+        display: none;
+        img {
+          margin-left: 10px;
+        }
+      }
+      &--top {
+        &__pot {
+          &--img {
+            img {
+              width: 217px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #designer {
+    .designer {
+      &--title {
+        width: 274.59px;
+      }
+    }
+  }
+  #now {
+    .now {
+      &--title {
+        margin-left: 33px;
+        button {
+          margin-left: 63px;
+        }
+      }
+      &--top {
+        width: 367px;
+      }
+    }
+  }
+  #nike {
+    .nike {
+      &--icon {
+        width: 55%;
+      }
+      img {
+        width: 87px;
+      }
+    }
+  }
+  #footer {
+    padding: 7px 0;
+  }
 }
